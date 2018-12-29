@@ -7,8 +7,11 @@ import errno
 import os
 import signal
 import socket
-import StringIO
 import sys
+try:
+    from StringIO import StringIO
+except ImportError:
+    from io import StringIO
 
 
 def grim_reaper(signum, frame):
