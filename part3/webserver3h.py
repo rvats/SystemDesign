@@ -126,7 +126,7 @@ class WSGIServer(object):
         env['REQUEST_METHOD']    = self.request_method    # GET
         env['PATH_INFO']         = self.path              # /hello
         env['SERVER_NAME']       = self.server_name       # localhost
-        env['SERVER_PORT']       = str(self.server_port)  # 8888
+        env['SERVER_PORT']       = str(self.server_port)  # 8679
         return env
 
     def start_response(self, status, response_headers, exc_info=None):
@@ -160,7 +160,7 @@ class WSGIServer(object):
             self.client_connection.close()
 
 
-SERVER_ADDRESS = (HOST, PORT) = '', 8888
+SERVER_ADDRESS = (HOST, PORT) = '', 8679
 
 
 def make_server(server_address, application):

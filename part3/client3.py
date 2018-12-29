@@ -9,10 +9,10 @@ import os
 import socket
 
 
-SERVER_ADDRESS = 'localhost', 8888
+SERVER_ADDRESS = 'localhost', 8679
 REQUEST = b"""\
 GET /hello HTTP/1.1
-Host: localhost:8888
+Host: localhost:8679
 
 """
 

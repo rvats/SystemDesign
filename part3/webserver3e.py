@@ -13,7 +13,7 @@ import signal
 import socket
 import time
 
-SERVER_ADDRESS = (HOST, PORT) = '', 8888
+SERVER_ADDRESS = (HOST, PORT) = '', 8679
 REQUEST_QUEUE_SIZE = 5
 
 
